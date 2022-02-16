@@ -8,8 +8,11 @@ public class LinkedList<T>{
 		ll.addLast(11.2);
 		ll.addLast(12.3);
 		ll.addLast(5.0);
-		ll.clear();
+		ll.addLast(5.0);
+		ll.remove(12.3);
 		ll.addLast(3.0);
+		ll.remove(5.0);
+		ll.addLast(7.0);
 		ll.print();
 		System.out.println(ll.size());
 	}
